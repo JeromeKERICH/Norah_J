@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Affirmation from '../components/Affirmation';
-import '../src/App.css';
+import '/assets/arabic.mp3'
+import '../src/App.css'
 
 function App() {
   const [showAffirmation, setShowAffirmation] = useState(false);
@@ -29,7 +30,7 @@ function App() {
         {showAffirmation && <Affirmation />}
         
         {/* Audio element */}
-        <audio ref={audioRef} src="../src/assets/arabic.mp3" preload="auto" />
+        <audio ref={audioRef} src="/assets/arabic.mp3" preload="auto" />
       </div>
     </div>
   );

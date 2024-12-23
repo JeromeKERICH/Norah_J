@@ -1,13 +1,13 @@
 import React from 'react';
 import { Howl } from 'howler';
-import arabicVoice from '../src/assets/arabic.mp3';
+import arabicVoice from '/assets/arabic.mp3';
 
 const HugButton = ({ setShowAffirmation }) => {
   const playSound = () => {
     const sound = new Howl({
-      src: [arabicVoice], // Path to the Arabic voice file
+      src: [arabicVoice], 
     });
-    sound.play(); // Play sound when clicked
+    sound.play(); 
   };
 
   const handleClick = () => {
