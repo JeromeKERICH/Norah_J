@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="content">
-        <h1>🌟 Virtual Hug for You 🌟</h1>
+        <h1>🌟 Virtual Hug for You Baby🌟</h1>
         <p className="intro-text">
           Life may throw challenges your way, but you are stronger than you think. Here's a little something to remind you of your strength.
         </p>
