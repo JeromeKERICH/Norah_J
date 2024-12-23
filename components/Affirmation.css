@@ -1,0 +1,63 @@
+.affirmation-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .affirmation-header {
+    font-size: 2.2rem;
+    color: #ff6347;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .affirmation-intro {
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .affirmation-text {
+    font-size: 1.5rem;
+    color: #2e8b57;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+  }
+  
+  /* Make the text responsive */
+  @media (max-width: 768px) {
+    .affirmation-header {
+      font-size: 1.8rem;
+    }
+    .affirmation-intro {
+      font-size: 1.1rem;
+    }
+    .affirmation-text {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .affirmation-header {
+      font-size: 1.6rem;
+    }
+    .affirmation-intro {
+      font-size: 1rem;
+    }
+    .affirmation-text {
+      font-size: 1.1rem;
+      padding: 0 10px;
+    }
+  }
+  
